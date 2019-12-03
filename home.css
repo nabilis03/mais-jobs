@@ -1,0 +1,1178 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.23, autoprefixer: v9.7.3) */
+
+.menu-lateral {
+    width: 350px;
+    background-color: #5f249f;
+    position: fixed;
+    z-index: 11;
+    top: 0;
+    left: -30px;
+    bottom: 0;
+    padding: 30px 20px 15px 65px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.45) 0px 0px 60px;
+            box-shadow: rgba(0, 0, 0, 0.45) 0px 0px 60px;
+    border-radius: 35px;
+    margin-left: -370px;
+}
+
+.slide-right {
+    margin-left: 0;
+}
+
+.menu-lateral .topo-menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.menu-lateral .topo-menu .foto {
+    width: 65px;
+    height: 65px;
+    background-color: #f4f4f4;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+}
+
+.menu-lateral .topo-menu .saudacao {
+    margin-left: 15px;
+}
+
+.menu-lateral .topo-menu .saudacao p {
+    font-size: 18px;
+    margin-bottom: 6px;
+}
+
+.menu-lateral .topo-menu .saudacao p span {
+    font-weight: 700;
+}
+
+.menu-lateral .topo-menu .saudacao .link-verde {
+    font-size: 12px;
+}
+
+.menu-lateral .content-menu ul {
+    list-style: none;
+}
+
+.menu-lateral .content-menu ul li {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.menu-lateral .content-menu ul li a {
+    color: #f4f4f4;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.menu-lateral .content-menu ul li a:hover {
+    text-decoration: none;
+}
+
+.menu-lateral .bottom-menu {
+    position: absolute;
+    bottom: 30px;
+}
+
+/*------------- JANELA FULL LIST ---------------*/
+
+.float-voltar {
+    float: left;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.float-voltar  img {
+    max-width: 18px;
+    margin-left: 30px;
+}
+
+.menu-full-list {
+    list-style: none;
+    margin: 40px;
+}
+
+.menu-full-list li {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.menu-full-list li.red a {
+    color: #ff1531;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.menu-full-list li a {
+    color: #00d39c;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.menu-full-list li a {
+    text-decoration: none;
+    color: #00d39c;
+}
+
+.menu-full-list li a img {
+    max-width: 10px;
+}
+
+.sobre {
+    height: 75px;
+    background-color: #5f249f;
+    padding: 30px 20px;
+    position: relative;
+}
+
+.sobre h3 {
+    margin-top: -5px;
+}
+
+.sobre .voltar {
+    position: absolute;
+    float: left;
+    font-size: 12px;
+    font-weight: 500;
+    color: #00d39c;
+    text-decoration: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.sobre .voltar img {
+    max-width: 10px;
+    margin-right: 5px;
+}
+
+.text p {
+    text-align: left;
+    color: #424242;
+    font-size: 14px;
+    margin-bottom: 15px;
+    text-transform: lowercase;
+    line-height: 1.3;
+}
+
+.text h4 {
+    font-size: 14px;
+    color: #5f249f;
+}
+
+.text .video-thumb {
+    width: 100%;
+    height: 200px;
+    margin: 10px 0;
+    background-color: #c4c4c4;
+}
+
+/*------------- HOME ---------------*/
+
+.header {
+    position: relative;
+    z-index: 11;
+    height: 65px;
+    background-color: #5f249f;
+    padding: 15px 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.header-foto {
+    width: 42px;
+    height: 42px;
+    background-color: #f4f4f4;
+    border-radius: 50%;    
+    background-size: cover;
+    background-position: center;
+}
+
+.header-foto-candidato {
+    background-image: url(img/foto-pedro.jpg);
+}
+
+.header-foto-recrutador {
+    background-image: url(img/foto-carolina.jpg);
+}
+
+.header-notif {
+    width: 50px;
+    height: 50px;
+}
+
+.header-notif .btn-notif {
+    display: block;
+    width: 50px;
+    height: 50px;
+    position: relative;
+}
+
+.header-notif .btn-notif::after {
+    content: '';
+    background-color: #ff1531;
+    -webkit-box-shadow: 0 0 10px rgba(255, 21, 49, 1);
+            box-shadow: 0 0 10px rgba(255, 21, 49, 1);
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 10px;
+    right: 0;
+    border-radius: 50%;
+}
+
+.header-notif .btn-notif img {
+    max-width: 30px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.header-notif-disabled .btn-notif {
+    display: block;
+    width: 50px;
+    height: 50px;
+    position: relative;
+}
+
+.header-notif .btn-notif-disabled img {
+    max-width: 30px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.fixed-menu {
+    position: fixed;
+    z-index: 11;
+    bottom: 0;
+    height: 60px;
+    width: 100%;
+    padding: 15px 20px;
+    background-color: #5f249f;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.fixed-menu-list {
+    width: 100%;
+    list-style: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+}
+
+.fixed-menu-list li img {
+    max-width: 45px;
+}
+
+.home-content {
+    max-width: 100%;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.home-content-np {
+    position: relative;
+    max-width: 100%;
+    padding-top: 0;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.txt-content {
+    max-width: 100%;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 15px;
+}
+
+h2.home-title {
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: #5f249f;
+    margin-right: 10px;
+}
+
+.wrapper-card {
+    display: block;
+    width: 100%;
+    margin: 15px auto 25px;
+    border-radius: 25px;
+    overflow: hidden;
+    -webkit-box-shadow: 0 0 10px rgba(0,0,0,.15);
+            box-shadow: 0 0 10px rgba(0,0,0,.15);
+}
+
+.card-link {
+    display: block;
+    text-decoration: none;
+}
+
+.card-link:hover {
+    text-decoration: none;
+}
+
+.card-vaga {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    overflow: hidden;
+}
+
+.card-vaga .imagem {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    height: 163px;
+    background-color: #ccc;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+.card-vaga .descricao {
+    -webkit-box-flex: 2;
+        -ms-flex: 2;
+            flex: 2;
+    min-height: 163px;
+    padding: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    background-color: #e5e5e5;
+}
+
+.card-vaga .descricao .nome-vaga {
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #5f249f;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.card-vaga .descricao .empresa-vaga {
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #424242;
+    font-weight: 600;
+}
+
+.card-vaga .descricao .candidatos-vaga {
+    font-size: 12px;
+    margin-bottom: 10px;
+    color: #b854f4;
+    font-weight: 600;
+}
+
+.card-vaga .descricao .data-vaga {
+    font-size: 11px;
+    color: #a6a6a6;
+}
+
+.card-vaga .descricao .tags-vaga {
+    margin: 5px 0 8px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.card-vaga .descricao .tags-vaga img {
+    max-width: 15px;
+    margin-right: 5px;
+}
+
+.card-vaga .descricao .tags-vaga span {
+    background-color: #5f249f;
+    color: #f4f4f4;
+    padding: 2px 8px;
+    margin-right: 5px;
+    font-size: 12px;
+    border-radius: 10px;
+}
+
+.empresas-container {
+    position: relative;
+}
+
+.empresas-container .swiper-container {
+    width: 100%;
+    height: 110px;
+}
+
+.empresas-container .swiper-button-next, 
+.empresas-container .swiper-button-prev {
+    top: 30%;
+}
+
+.empresas-container .swiper-container .swiper-button-prev {
+    left: -8px; 
+}
+
+.empresas-container .swiper-container .swiper-button-next {
+    right: -8px;
+}
+
+.empresas-container .empresas-slide {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 5px;
+    background-color: #ccc;
+    border-radius: 50%;
+    margin: 5px auto;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    -webkit-box-shadow: 0 0 10px rgba(0,0,0,.15);
+            box-shadow: 0 0 10px rgba(0,0,0,.15);
+}
+
+.empresas-container p.nome-empresa {
+    text-align: center;
+    margin-top: 8px;
+    font-weight: 500;
+    font-size: 12px;
+    color: #5f249f;
+}
+
+.banner-img {
+    border-radius: 25px;
+    overflow: hidden;
+}
+
+.banner-img img {
+    width: 100%;
+}
+
+/*------------- JANELA DE NOTIFICAÇÕES ---------------*/
+.title-box {
+    background-color: #e2e2e2;
+    padding: 7px 20px;
+}
+
+.title-box-txt {
+    color: #a6a6a6;
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+
+.txt-content .message-box h3 {
+    margin-bottom: 5px;
+}
+
+.txt-content .message-box .txt-padrao {
+    color: #424242;
+    margin-bottom: 5px;
+    white-space: nowrap;
+    width: 100%;                   
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+       text-overflow: ellipsis;
+}
+
+.txt-content .message-box .txt-mini {
+    margin: 6px 0 0 0;
+    color: #A6A6A6;
+}
+
+.message-box .new {
+    display: inline-block;
+    border-radius: 50%;
+    background-color: #ff1531;
+    -webkit-box-shadow: 0 0 10px rgba(255, 21, 49, 1);
+            box-shadow: 0 0 10px rgba(255, 21, 49, 1);
+    width: 10px;
+    height: 10px;
+    margin-right: 6px;
+}
+
+.fade-bottom {
+    background-image: url(img/fade-down.png);
+    bottom: 60px;
+    position: fixed;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 220px;
+    opacity: 1;
+}
+
+/*------------- JANELA DE CHAT ---------------*/
+
+.txt-content .txt-content-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    flex-shrink: 0;
+}
+
+.txt-content .txt-content-wrapper .foto-box {
+    position: relative;
+    background-color: #c4c4c4;
+    width: 65px;
+    height: 65px;
+    margin-right: 15px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    flex-shrink: 0;
+}
+
+.txt-content .txt-content-wrapper .foto-box.msg-nova::after {
+    content: '';
+    background-color: #ff1531;
+    -webkit-box-shadow: 0 0 5px rgba(255, 21, 49, 1);
+            box-shadow: 0 0 5px rgba(255, 21, 49, 1);
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 7px;
+    right: 0;
+    border-radius: 50%;
+}
+
+.txt-content .txt-content-wrapper .foto-box .foto-box-1 {
+    background-image: url();
+}
+
+.txt-content .txt-content-wrapper .message-box {
+    -webkit-box-flex: 2;
+        -ms-flex: 2;
+            flex: 2;
+}
+
+.chat-msg {
+    max-width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.chat-msg.chat-candidato {
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+}
+
+.chat-msg .msg-foto {
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    background-color: #c4c4c4;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.chat-msg .msg-foto.foto-recrutador {
+    margin-right: 20px;
+}
+
+.chat-msg .msg-txt {
+    -webkit-box-flex: 2;
+        -ms-flex: 2;
+            flex: 2;
+    padding: 20px;
+}
+
+.chat-msg .msg-txt.msg-recrutador p {
+    color: #f4f4f4;
+}
+
+.chat-msg .msg-txt.msg-recrutador {
+    background-color: #5f249f;
+    border-radius: 0 15px 15px 15px;
+}
+
+.chat-msg .msg-foto.foto-candidato {
+    margin-left: 20px;
+}
+
+.chat-msg .msg-txt.msg-candidato p {
+    color: #424242;
+}
+
+.chat-msg .msg-txt.msg-candidato {
+    background-color: #e2e2e2;
+    border-radius: 15px 15px 0 15px;
+}
+
+.enviar-msg {
+    padding: 20px;
+    margin-top: 15px;
+}
+
+.enviar-msg .txt-msg {
+    position: relative;
+    width: 100%;
+}
+
+.enviar-msg .txt-msg textarea {
+    width: 100%;
+    background-color: #e2e2e2;
+    border: 0;
+    border-radius: 15px;
+    font-family: 'Asap', sans-serif;
+    color: #424242;
+    padding: 15px 30px 15px 20px;
+    font-size: 12px;
+}
+
+.enviar-msg .txt-msg textarea:focus {
+    outline: 0;
+}
+
+.enviar-msg .txt-msg img {
+    position: absolute;
+    top: 15px;
+    right: 10px;
+}
+
+/*------------- JANELA DE PESQUISA ---------------*/
+.campo-pesquisar {
+    position: relative;
+}
+
+.campo-pesquisar input {
+    width: 100%;
+    background-color: #fff;
+    color: #545454;
+    border: 0;
+    border-radius: 15px;
+    padding: 15px 40px;
+    font-family: 'Asap', sans-serif;
+    -webkit-box-shadow: 0 0 10px rgba(0,0,0,.15);
+            box-shadow: 0 0 10px rgba(0,0,0,.15);
+}
+
+.campo-pesquisar input:focus {
+    outline: 0;
+}
+
+.campo-pesquisar input::-webkit-input-placeholder {
+    color: #c4c4c4;
+}
+
+.campo-pesquisar input::-moz-placeholder {
+    color: #c4c4c4;
+}
+
+.campo-pesquisar input:-ms-input-placeholder {
+    color: #c4c4c4;
+}
+
+.campo-pesquisar input::-ms-input-placeholder {
+    color: #c4c4c4;
+}
+
+.campo-pesquisar input::placeholder {
+    color: #c4c4c4;
+}
+
+.campo-pesquisar .lupa {
+    position: absolute;
+    width: 35px;
+    top: 5px;
+    left: 5px;
+}
+
+.campo-pesquisar .limpar {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    opacity: .5;
+}
+
+.campo-filtros {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    font-size: 12px;
+}
+
+.campo-filtros p {
+    color: #424242;
+}
+
+.campo-filtros .btn-filtro {
+    padding: 4px 15px;
+    background-color: #c4c4c4;
+    color: #f4f4f4;
+    text-decoration: none;
+    border-radius: 6px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.campo-filtros .btn-filtro:hover {
+    color: #f4f4f4;
+    text-decoration: none;
+}
+
+.campo-filtros .btn-filtro.btn-filtro-select {
+    background-color: #5f249f;
+}
+
+.resultado .txt-content {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.resultado .txt-content .connect-box {
+    width: 70px;
+}
+
+.resultado .txt-content .connect-box .connect-btn {
+    width: 100%;
+    display: block;
+    text-align: center;
+    height: 25px;
+    padding: 5px;
+    font-size: 12px;
+    color: #5f249f;
+    border: 1px solid #5f249f;
+    text-decoration: none;
+    border-radius: 6px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.foto-box .foto-resultado-1 {
+    background-image: url();
+}
+
+/*------------- JANELA DO PERFIL ---------------*/
+.header-perfil {
+    max-width: 100%;
+}
+
+.header-perfil .mandar-msg {
+    float: left;   
+}
+
+.header-perfil .mandar-msg img {
+    max-width: 35px;
+}
+
+.header-perfil .foto-perfil {
+    background-color: #c4c4c4;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 125px;
+    height: 125px;
+    display: block;
+    margin: 0 auto 20px;
+    border-radius: 50%;
+}
+
+.header-perfil .subtitulo-perfil {
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #5f249f;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+
+.header-perfil .subtitulo-perfil.nome-empresa {
+    font-size: 16px;
+}
+
+.header-perfil .subtitulo-perfil img {
+    max-width: 18px;
+    margin-right: 5px;
+}
+
+.header-perfil .subtitulo-perfil span {
+    background-color: #5f249f;
+    color: #f4f4f4;
+    padding: 5px 15px;
+    margin: 0 5px;
+    font-size: 12px;
+    border-radius: 10px;
+}
+
+.header-perfil .box-labels {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 15px 0;
+}
+
+.header-perfil .btn-label {
+    padding: 5px 20px;
+    font-size: 12px;
+    color: #5f249f;
+    border: 1px solid #5f249f;
+    text-decoration: none;
+    border-radius: 6px;
+    margin: 0 5px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.header-perfil .btn-label.btn-seguir {
+    border: 0;
+    background-color: #00d39c;
+}
+
+.bloco-perfil {
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+
+.linha {
+    width: 100%;
+    height: 1px;
+    background-color: #c4c4c4;
+    margin-bottom: 20px;
+}
+
+.bloco-perfil .bloco-xp {
+    margin-bottom: 30px;
+    color: #5f249f
+}
+
+.bloco-perfil .titulo-perfil {
+    color: #5f249f;
+    margin-bottom: 10px;
+}
+
+.bloco-perfil .texto-perfil p {
+    text-align: left;
+    line-height: 1.3;
+    color: #424242;
+    font-size: 14px;
+    text-transform: lowercase;
+    margin-bottom: 10px;
+}
+
+.bloco-perfil .subtitulo-perfil {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.bloco-xp .nome-graduacao {
+    font-weight: 600;
+    margin-bottom: 4px;
+    color: #424242;
+}
+
+.bloco-xp .nome-empresa {
+    font-weight: 600;
+}
+
+.bloco-xp .subtitulo-perfil h5.periodo {
+    font-weight: 400;
+}
+
+.subtitulo-perfil.nome-empresa {
+    font-weight: 600;
+}
+
+.texto-perfil span.bolder {
+    font-weight: 600;
+}
+
+.texto-perfil span.status {
+    font-weight: 700;
+    color: #00d39c;
+}
+
+/*--------- Benefícios ---------*/
+
+.beneficios-container {
+    position: relative;
+}
+
+.beneficios-container .swiper-container {
+    width: 100%;
+    height: 100px;
+}
+
+.beneficios-container .swiper-button-next, 
+.beneficios-container .swiper-button-prev {
+    top: 30%;
+}
+
+.swiper-button-next:after, .swiper-container-rtl .swiper-button-prev:after {
+    content: url(img/icons/seta-direita-roxo-swiper.png) !important;
+}
+
+.beneficios-container .swiper-container .swiper-button-prev {
+   left: 0; 
+}
+
+.swiper-button-prev:after, .swiper-container-rtl .swiper-button-next:after {
+    content: url(img/icons/seta-esquerda-roxo-swiper.png) !important;
+}
+
+.beneficios-container .swiper-container .swiper-button-next {
+    right: 0; 
+}
+
+.beneficios-slide {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 1px solid #5f249f;
+    margin: 0 auto 5px;
+}
+
+.beneficios-slide img {
+    max-width: 40px;
+}
+
+.beneficios-container p.nome-beneficios {
+    font-size: 10px;
+    color: #545454;
+    text-align: center;
+}
+
+.video-container {
+    max-width: 100%;
+    margin: 10px auto;
+}
+
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 0px;
+	height: 0;
+}
+
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border-radius: 10px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 380px) {
+    h3 {
+        font-size: 15px;
+    }
+
+    h2.home-title {
+        font-size: 14px;
+        flex-shrink: 0;
+    }
+
+    .title img {
+        flex-shrink: 0;
+        width: 110px;
+    }
+
+    .txt-padrao {
+        font-size: 14px;
+    } 
+
+    .menu-lateral {
+        width: 280px;
+    }
+
+    .menu-lateral .content-menu ul li {
+        font-size: 14px;
+    }
+    
+    .menu-full-list li {
+        font-size: 13px;
+    }
+
+    .voltar-container {
+        height: 25px;
+    }
+
+    .float-voltar img {
+        max-width: 15px;
+    }
+
+    .header-notif .btn-notif img {
+        max-width: 25px;
+        margin-left: 20px;
+    }
+
+    .header-notif .btn-notif-disabled img {
+        max-width: 25px;
+        margin-left: 20px;
+    }
+
+    .fixed-menu-list li img {
+        max-width: 35px;
+    }
+
+    .empresas-container .empresas-slide {
+        width: 60px;
+        height: 60px;
+    }
+
+    .swiper-button-prev::after,
+    .swiper-button-next::after {
+        outline: 0;
+    }
+
+    .empresas-container .swiper-button-next, .empresas-container .swiper-button-prev {
+        top: 20%;
+    }
+
+    .empresas-container .swiper-container .swiper-button-prev {
+        left: -5px;
+    }
+
+    .empresas-container .swiper-container .swiper-button-next {
+        right: -5px;
+    }
+
+    .form-cadastro {
+        max-width: 290px;
+    }
+
+    .form-perfil {
+        width: 100% !important;
+    }
+
+    .txt-content .txt-content-wrapper .foto-box {
+        width: 50px;
+        height: 50px;
+    }
+
+    .txt-content .message-box .txt-padrao {
+        width: 225px;
+    }
+
+    .campo-pesquisar input {
+        font-size: 12px;
+        padding: 10px 40px;
+    }
+
+    .campo-pesquisar .lupa {
+        width: 25px;
+        top: 4px;
+    }
+
+    .campo-pesquisar .limpar {
+        width: 10px;
+        top: 12px;
+    }
+
+    .campo-filtros .btn-filtro {
+        padding: 3px 8px;
+        font-size: 11px;
+    }
+
+    .resultado .txt-content .connect-box {
+        width: 55px;
+    }
+
+    .resultado .txt-content .connect-box .connect-btn {
+        font-size: 11px;
+    }
+
+    .card-vaga .descricao .nome-vaga {
+        font-size: 13px;
+    }
+
+    .bloco-perfil .texto-perfil p {
+        font-size: 12px;
+    }   
+}

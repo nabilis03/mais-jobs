@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>+Jobs | Mais chances para todos</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="login-cadastro.css">
+</head>
+
+<body id="fadeIn" style="overflow: hidden;">
+    <!---------Início Loader--------->
+    <div class="loading" id="loading">
+        <img class="loading-gif" src="img/loading.gif" alt="+Jobs, mais chance a todos">
+    </div>
+    <!---------Fim Loader--------->
+
+    <!---------Início bloco login--------->
+    <div class="mobile-container tela-inicial bg-primario flex flex-column">
+        <img class="logo-login" src="img/logo-secundario.png" alt="+Jobs">
+        <a class="btn btn-link btn-primario" href="fala-pra-gente.html">cadastre-se</a>
+        <a class="btn btn-link btn-secundario" href="#">cadastre-se com o google</a>
+        <p class="txt-pequeno txt-centro mt-15 mb-15">já é cadastrado? faça seu login <a class="link-texto link-verde"
+                id="fazerLogin">clicando aqui</a></p>
+    </div>
+    <!---------Fim bloco login--------->
+
+    <!---------Início card de login--------->
+    <div class="card-login">
+        <a class="link-texto link-verde txt-pequeno mt-20 mb-20 ml-20" id="fecharLogin" href="#"><img src="img/icons/seta-esquerda-verde.png"> voltar</a>
+        <div class="topo-card-branco"></div>
+        <div class="card-branco">
+            <h2 class="txt-centro txt-roxo mb-10">login</h2>
+            <div class="form-login">
+                <form action="">
+                    <div class="input-wrapper">
+                        <img src="img/icons/perfil-roxo.png" alt="">
+                        <input class="input-login" type="text" name="login-usuario" id="login-usuario"
+                            placeholder="usuário">
+                    </div>
+                    <div class="input-wrapper">
+                        <img src="img/icons/senha-roxo.png" alt="">
+                        <input class="input-login" type="text" name="login-senha" id="login-senha" placeholder="senha">
+                    </div>
+                </form>
+                <a class="btn btn-link btn-primario" href="candidato-home.html">entrar</a>
+                <p class="txt-centro mt-30"><a class="link-texto txt-pequeno link-roxo" href="#">esqueceu sua senha?</a>
+                </p>
+            </div>
+        </div>
+    </div>
+    <!---------Fim card de login--------->
+
+    <!---------Início Scripts--------->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+        integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('#loading').fadeIn('slow').delay(7000).fadeOut('slow');
+        });
+    </script>
+    <!---------Fim Scripts--------->
+</body>
+
+</html>

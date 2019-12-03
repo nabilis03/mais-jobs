@@ -1,0 +1,304 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.23, autoprefixer: v9.7.3) */
+
+/*--------- Fonte ---------*/
+@import url('https://fonts.googleapis.com/css?family=Asap:400,500,600,700&display=swap');
+
+/*--------- Geral ---------*/
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+body {    
+    font-family: 'Asap', sans-serif;
+    position: relative;
+}
+
+.voltar-container {
+    height: 50px;
+    width: auto;
+    position: absolute;
+}
+
+.mobile-container {
+    width: 100%;
+    min-height: 100vh;
+    margin: 0 auto;
+}
+
+.bg-primario {
+    background-color: #5f249f;
+}
+
+.bg-secundario {
+    background-color: #f4f4f4;
+}
+
+.flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+
+.flex-column {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+}
+
+/*--------- Fade ---------*/
+#fadeIn {
+    animation: fadein .8s;
+    -moz-animation: fadein .8s;
+    -webkit-animation: fadein .8s;
+    -o-animation: fadein .8s;
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+
+/*--------- Margens ---------*/
+.mb-5 { margin-bottom: 5px; }
+
+.mt-10 { margin-top: 10px; }
+
+.mb-10 { margin-bottom: 10px; }
+
+.mtb-10 { margin-top: 10px; margin-bottom: 10px; }
+
+.mt-15 { margin-top: 15px; }
+
+.ml-15 { margin-left: 15px; }
+
+.mb-15 { margin-bottom: 15px; }
+
+.mr-15 { margin-right: 15px; }
+
+.mt-20 { margin-top: 20px; }
+
+.ml-20 { margin-left: 20px; }
+
+.mb-20 { margin-bottom: 20px; }
+
+.mr-20 { margin-right: 20px; }
+
+.mt-30 { margin-top: 30px; }
+
+.mb-30 { margin-bottom: 30px; }
+
+.mt-40 { margin-top: 40px; }
+
+.mb-40 { margin-bottom: 40px; }
+
+.mb-50 { margin-bottom: 50px; }
+
+/*--------- Paddings ---------*/
+.prl-50 { padding-right: 50px; padding-left: 50px;}
+
+.ptb-50 { padding-top: 50px; padding-bottom: 50px;}
+
+.ptrl-20 {
+    padding-top: 25px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.pt-20 { padding-top: 20px !important; }
+
+.pt-40 { padding-top: 40px; }
+
+.pb-50 { padding-bottom: 50px; }
+
+.pt-60 { padding-top: 60px; }
+
+.pb-75 { padding-bottom: 75px; }
+
+.pb-90 { padding-bottom: 90px; }
+
+/*--------- Botões ---------*/
+.btn {
+    display: block;
+    text-align: center;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 30px;
+    margin: 12px auto;
+    cursor: pointer;
+    font-size: 14px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.btn-link {
+    width: 250px;
+}
+
+.btn-submit {
+    width: 100%;
+}
+
+.btn-avancar {
+    width: 150px;
+}
+
+.btn-avancar img {
+    max-width: 8px;
+    margin-left: 3px;
+}
+
+.btn:hover {
+    text-decoration: none;
+}
+
+.btn-primario {
+    color: #5f249f;
+    background-color: #00d39c;
+    -webkit-box-shadow: 0 0 15px rgba(0,211,156,1);
+            box-shadow: 0 0 15px rgba(0,211,156,1);
+}
+
+.btn-primario:hover {
+    color: #5f249f;
+}
+
+.btn-secundario {
+    border: 1px solid #00d39c;
+    -webkit-box-shadow: 0 0 15px rgba(0,211,156,1);
+            box-shadow: 0 0 15px rgba(0,211,156,1);
+    color: #00d39c;
+}
+
+.btn-secundario:hover {
+    color: #00d39c;
+}
+
+.btn-vermelho {
+    color: #f4f4f4;
+    background-color: #ff1531;
+    -webkit-box-shadow: 0 0 15px rgba(255, 21, 49, 1);
+            box-shadow: 0 0 15px rgba(255, 21, 49, 1);
+}
+
+.btn-vermelho:hover {
+    color: #f4f4f4;
+}
+
+/*--------- Texto em geral ---------*/
+h2 {
+    font-weight: 700;
+    font-size: 1.65rem;
+}
+
+h3 {
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+h4 {
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.txt-mini {
+    font-size: 10px;
+    line-height: 1.25;
+    margin: 20px auto;
+}
+
+.txt-pequeno {
+    font-size: 12px;
+    line-height: 1.25;
+}
+
+.txt-padrao {
+    font-size: 14px;
+}
+
+.txt-direita {
+    text-align: right;
+}
+
+.txt-centro {
+    text-align: center;
+}
+
+.txt-roxo {
+    color: #5f249f;
+}
+
+.txt-verde {
+    color: #00d39c;
+}
+
+.txt-branco {
+    color: #f4f4f4;
+}
+
+.txt-cinza {
+    color: #252525;
+}
+
+/*--------- Links em texto ---------*/
+.link-texto {
+    text-decoration: none;
+    font-weight: 600;
+    display: inline-block;
+}
+
+.link-texto img {
+    max-width: 8px;
+    margin-right: 5px;
+}
+
+.link-sublinhado {
+    text-decoration: underline;
+    font-weight: 400;
+    display: inline-block;
+}
+
+.link-texto:hover {
+    text-decoration: none;
+}
+
+.link-branco {
+    color: #f4f4f4;
+}
+
+.link-verde {
+    color: #00d39c;
+}
+
+.link-roxo {
+    color: #5f249f;
+}
+
+/*--------- Media Query ---------*/
+@media only screen and (min-width: 641px) {
+    html {
+        display: none;
+    }
+}

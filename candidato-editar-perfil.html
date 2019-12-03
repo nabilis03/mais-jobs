@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>+Jobs | Editar perfil</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="login-cadastro.css">
+    <link rel="stylesheet" href="perfil.css">
+
+</head>
+
+<body id="fadeIn">    
+    <div class="mobile-container bg-primario flex flex-column ptb-50">
+        <h3 class="txt-centro txt-verde mb-10">nome completo</h3>
+        <div class="alterar-foto-wrapper mb-20">
+            <div class="foto-perfil foto-perfil-candidato"></div>
+            <a class="link-sublinhado txt-pequeno link-verde" href="">alterar foto</a>  
+        </div>        
+        <ul class="lista-editar-perfil">
+            <li><img src="img/icons/perfil-branco.png"> <a class="link-sublinhado link-branco txt-padrao" href="">informações pessoais</a></li>
+            <li><img src="img/icons/add-formacao.png"> <a class="link-sublinhado link-branco txt-padrao" href="">adicionar formação acadêmica</a></li>
+            <li><img src="img/icons/add-vaga.png"> <a class="link-sublinhado link-branco txt-padrao" href="">adicionar experiência profissional</a></li>
+            <li><img src="img/icons/anexar.png"> <a class="link-sublinhado link-branco txt-padrao" href="">anexar link ou documento de portifólio</a></li>  
+        </ul>      
+        <div class="form-perfil">
+            <textarea class="textarea-perfil" cols="30" rows="5" placeholder="diga mais sobre você"></textarea>
+            <p class="txt-direita txt-pequeno">máx. de 340 caracteres</p>
+        </div>
+
+        <div class="box-alerta">
+            <div class="label-alerta">
+                <p class="txt-padrao">alerta de oportunidades</p>
+            </div>
+            <div class="button-cover">
+                <div class="button r" id="button-1">
+                    <input type="checkbox" class="checkbox">
+                    <div class="knobs"></div>
+                    <div class="layer"></div>
+                </div>
+            </div>
+        </div>
+
+        <section style="width: 310px;">
+            <div class="block-right">
+                <a class="btn btn-primario btn-avancar" href="candidato-home.html">avançar <img src="img/icons/seta-direita-roxo.png"></a>
+            </div>
+        </section>
+    </div>
+
+    <!---------Início Scripts--------->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+        integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+    <!---------Fim Scripts--------->
+</body>
+
+</html>

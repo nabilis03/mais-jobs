@@ -1,0 +1,203 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.23, autoprefixer: v9.7.3) */
+
+/*--------- Imagem Perfil ---------*/
+.alterar-foto-wrapper {
+    text-align: center;
+}
+
+.foto-perfil {
+    width: 125px;
+    height: 125px;
+    background-color: #f4f4f4;
+    border-radius: 50%;
+    margin: 20px auto 5px;
+    background-size: cover;
+    background-position: center;
+}
+
+.foto-perfil-candidato {
+    background-image: url(img/foto-candidato.jpg);
+}
+
+.foto-perfil-recrutador {
+    background-image: url(img/foto-recrutador.jpg);
+}
+
+.form-perfil {
+    margin: 30px auto;
+    width: 310px;
+}
+
+.lista-editar-perfil {
+    list-style: none;
+    width: 310px;
+    margin-left: 10px;
+}
+
+.lista-editar-perfil li {
+    margin: 20px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.lista-editar-perfil li img {
+    margin-right: 8px;
+    max-width: 30px;
+}
+
+.textarea-perfil {
+    width: 100%;
+    border-radius: 15px;
+    border: 2px solid #f4f4f4;
+    background-color: transparent;
+    color: #b854f4;
+    font-family: 'Asap', sans-serif;
+    padding: 20px;
+}
+
+.textarea-perfil::-webkit-input-placeholder {
+    color: #b854f4;
+}
+
+.textarea-perfil::-moz-placeholder {
+    color: #b854f4;
+}
+
+.textarea-perfil:-ms-input-placeholder {
+    color: #b854f4;
+}
+
+.textarea-perfil::-ms-input-placeholder {
+    color: #b854f4;
+}
+
+.textarea-perfil::placeholder {
+    color: #b854f4;
+}
+
+.textarea-perfil:focus {
+    outline: 0;
+}
+
+.box-alerta {
+    width: 310px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+
+.label-alerta p {
+    text-align: left;
+    font-weight: 600;
+}
+
+/*--------- Botão de Alerta ---------*/
+.button-cover {
+    margin: 20px 0;
+}
+
+.knobs, .layer {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.button {
+    position: relative;
+    top: 50%;
+    width: 45px;
+    height: 20px;
+    margin: -20px auto 0 auto;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.button.r, .button.r .layer {
+    border-radius: 100px;
+}
+
+.button.b2 {
+    border-radius: 2px;
+}
+
+.checkbox {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    opacity: 0;
+    cursor: pointer;
+    z-index: 3;
+    outline: 0;
+}
+
+.knobs {
+    z-index: 2;
+}
+
+.layer {
+    width: 100%;
+    background-color: #f4f4f4;
+    -webkit-transition: 0.4s ease all;
+    -o-transition: 0.4s ease all;
+    transition: 0.4s ease all;
+    z-index: 1;    
+}
+
+#button-1 .knobs:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 12px;
+    height: 2px;
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1;
+    padding: 9px 4px;
+    background-color: #f4f4f4;
+    -webkit-box-shadow: 0 0 25px rgba(0,0,0,1);
+            box-shadow: 0 0 25px rgba(0,0,0,1);
+    border-radius: 50%;
+    -webkit-transition: 0.4s cubic-bezier(0.18, 0.89, 0.35, 1.15) all;
+    -o-transition: 0.4s cubic-bezier(0.18, 0.89, 0.35, 1.15) all;
+    transition: 0.4s cubic-bezier(0.18, 0.89, 0.35, 1.15) all;
+}
+
+#button-1 .checkbox:checked + .knobs:before {
+    content: '';
+    left: 25px;
+    background-color: #00d39c;
+    -webkit-box-shadow: 0 0 25px rgba(0,0,0,1);
+            box-shadow: 0 0 25px rgba(0,0,0,1);
+}
+
+#button-1 .checkbox:checked ~ .layer {
+    background-color: #00d39c;
+}
+
+#button-1 .knobs, #button-1 .knobs:before, #button-1 .layer {
+    -webkit-transition: 0.4s ease all;
+    -o-transition: 0.4s ease all;
+    transition: 0.4s ease all;
+}
+
+.block-right {
+    float: right;
+}
+
+/*--------- Media Query ---------*/
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+
+}
